@@ -1,2 +1,2 @@
-# romfs
-This example shows how to use RomFS embedded in the application.
+# Trill's MMBN Rom Extractor
+This is a simple ROM Extractor for homebrew enabled Nintendo Switch.
