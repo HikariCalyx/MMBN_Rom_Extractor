@@ -205,7 +205,13 @@ int main(int argc, char **argv)
                     printf("Mega Man Battle Network 6 - Cybeast Falzar (English US) -> bn6f.gba\n");
                 }
                 printf("\nTo extract GBA ROM images between EXE1/BN1 - EXE3/BN3, run this homebrew by\ndoing title takeover from Volume 2.\n"); break;
+            case 0x0100C99024EDE000:  //SFLC
+                break;
             default:
+                if (programId == 0x0100C99024EDE000) //SFLC
+                {
+                    printf("Mega Man Star Force Legacy Collection is not supported yet.\n\n")
+                }
                 printf("Please run this homebrew by doing title takeover from either of these 2 games:\n");
                 printf("Mega Man Battle Network Legacy Collection Volume 1\n");
                 printf("Mega Man Battle Network Legacy Collection Volume 2\n");

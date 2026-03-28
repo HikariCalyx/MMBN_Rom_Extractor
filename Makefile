@@ -45,7 +45,7 @@ INCLUDES	:=	include
 #ROMFS	:=	romfs
 
 APP_TITLE := Trill's BNLC ROM Extractor
-APP_VERSION := 1.0
+APP_VERSION := 1.1
 APP_AUTHOR := Hikari Calyx Tech
 
 #---------------------------------------------------------------------------------
